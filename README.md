@@ -10,6 +10,8 @@ Proyecto de producto y portfolio con una demo pública de solo lectura.
 
 La demo presenta un itinerario de ejemplo y no está destinada a gestionar reservas reales.
 
+![Portada de la demo de Ruta de la Luna en modo de solo lectura](public/portfolio/ruta-de-la-luna-demo.png)
+
 ## Qué permite organizar
 
 - Itinerario por día con rutas, distancias y tiempos estimados.

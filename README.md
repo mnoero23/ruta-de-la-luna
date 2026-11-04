@@ -6,7 +6,7 @@ Proyecto de producto y portfolio basado en un caso de viaje. La aplicación gen�
 
 ## Estado de la demo
 
-La demo pública está en revisión. Retiré su enlace de esta presentación hasta verificar que use información ilustrativa y que funcione en modo de solo lectura.
+El sitio de Ruta de la Luna está temporalmente restringido a su propietaria mientras se corrige la privacidad y se prepara una versión de solo lectura. Actualmente no hay una demo pública disponible.
 
 La captura siguiente es una referencia visual de la interfaz; no confirma el estado actual de la demo.
 
@@ -26,7 +26,7 @@ Next.js 16 · React 19 · TypeScript · Leaflet · Cloudflare Workers · D1 · R
 
 ## Privacidad
 
-Antes de volver a enlazar la demo hay que comprobar que no muestre nombres, gastos ni otra información del viaje personal, y que la edición esté desactivada para visitantes.
+Antes de volver a enlazar la demo hay que comprobar que use información ilustrativa, no muestre datos del viaje personal y que la edición esté desactivada para visitantes.
 
 ## Desarrollo local
 

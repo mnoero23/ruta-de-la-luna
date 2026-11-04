@@ -1,21 +1,32 @@
 # Ruta de la Luna
 
-Planificador de viajes colaborativo creado como proyecto de producto y portfolio. Integra itinerario, mapa, alojamientos, tareas, gastos y recuerdos en una experiencia responsive e instalable.
+**Un planificador colaborativo para organizar un viaje, su recorrido y sus recuerdos.**
 
-> Esta versión pública usa datos demostrativos. Reservas, contactos, pagos y contenido privado del viaje original no forman parte del repositorio.
+Proyecto de producto y portfolio basado en un caso de viaje. La aplicación genérica de viajes que está en desarrollo es un proyecto independiente; no forma parte de este repositorio.
 
-## Funcionalidades
+## Estado de la demo
 
-- Hoja de ruta por día con distancias, tiempos y mapa interactivo.
-- Gestión de alojamientos, excursiones y decisiones pendientes.
-- Registro compartido de gastos en ARS y USD.
-- Diario de viaje con carga de fotografías.
-- Modo lectura y edición protegido por clave.
-- PWA con soporte básico para conectividad limitada.
+El sitio de Ruta de la Luna está temporalmente restringido a su propietaria mientras se corrige la privacidad y se prepara una versión de solo lectura. Actualmente no hay una demo pública disponible.
 
-## Stack
+La captura siguiente es una referencia visual de la interfaz; no confirma el estado actual de la demo.
 
-Next.js 16 · React 19 · TypeScript · Leaflet · Cloudflare Workers · D1 · R2 · Drizzle ORM
+![Referencia visual de Ruta de la Luna](public/portfolio/ruta-de-la-luna-demo.png)
+
+## Qué permite organizar
+
+- Itinerario por día con rutas, distancias y tiempos estimados.
+- Alojamientos, excursiones y decisiones pendientes.
+- Gastos compartidos en ARS y USD.
+- Recuerdos del viaje con fotografías.
+- Vista adaptable a escritorio y móvil, con soporte PWA para conectividad limitada.
+
+## Tecnologías
+
+Next.js 16 · React 19 · TypeScript · Leaflet · Cloudflare Workers · D1 · R2 · Drizzle ORM · Vite · Vinext
+
+## Privacidad
+
+Antes de volver a enlazar la demo hay que comprobar que use información ilustrativa, no muestre datos del viaje personal y que la edición esté desactivada para visitantes.
 
 ## Desarrollo local
 
@@ -25,15 +36,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-La aplicación puede ejecutarse en modo demostración sin credenciales. Para edición y persistencia se requieren los bindings `DB` (D1), `BUCKET` (R2) y una variable `EDIT_CODE`.
-
-## Demo
-
-[Abrir la versión publicada](https://ruta-de-la-luna.mnoero.chatgpt.site/)
-
-## Privacidad
-
-El código publicado fue saneado deliberadamente: todos los alojamientos, importes, contactos y responsables incluidos son ficticios o ilustrativos.
+La aplicación puede ejecutarse en modo demostración sin credenciales. La edición y persistencia requieren los bindings `DB` (D1), `BUCKET` (R2) y la variable `EDIT_CODE`.
 
 ## Autor
 

@@ -1,16 +1,16 @@
 # Ruta de la Luna
 
-**Un planificador de viaje colaborativo para organizar el recorrido, las actividades y los recuerdos desde un solo lugar.**
+**Un planificador colaborativo para organizar un viaje, su recorrido y sus recuerdos.**
 
-Proyecto de producto y portfolio con una demo pública de solo lectura.
+Proyecto de producto y portfolio basado en un caso de viaje. La aplicación genérica de viajes que está en desarrollo es un proyecto independiente; no forma parte de este repositorio.
 
-## Demo
+## Estado de la demo
 
-[Explorar la demo de Ruta de la Luna](https://ruta-de-la-luna.mnoero.chatgpt.site/)
+La demo pública está en revisión. Retiré su enlace de esta presentación hasta verificar que use información ilustrativa y que funcione en modo de solo lectura.
 
-La demo presenta un itinerario de ejemplo y no está destinada a gestionar reservas reales.
+La captura siguiente es una referencia visual de la interfaz; no confirma el estado actual de la demo.
 
-![Portada de la demo de Ruta de la Luna en modo de solo lectura](public/portfolio/ruta-de-la-luna-demo.png)
+![Referencia visual de Ruta de la Luna](public/portfolio/ruta-de-la-luna-demo.png)
 
 ## Qué permite organizar
 
@@ -24,11 +24,9 @@ La demo presenta un itinerario de ejemplo y no está destinada a gestionar reser
 
 Next.js 16 · React 19 · TypeScript · Leaflet · Cloudflare Workers · D1 · R2 · Drizzle ORM · Vite · Vinext
 
-## Estado y privacidad
+## Privacidad
 
-Este repositorio contiene una versión pública preparada para portfolio. La demo utiliza información ilustrativa; no debe utilizarse para coordinar viajes, pagos o reservas reales. Los contactos y datos privados del viaje original fueron excluidos del material publicado.
-
-El repositorio es público y la demo se encuentra disponible en modo de solo lectura.
+Antes de volver a enlazar la demo hay que comprobar que no muestre nombres, gastos ni otra información del viaje personal, y que la edición esté desactivada para visitantes.
 
 ## Desarrollo local
 
